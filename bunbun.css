@@ -1,0 +1,17 @@
+html {
+  background: #E5E5E5;
+  display: grid;
+  grid-template-columns: 
+}
+
+.footer {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: ??px;
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+  color: #B49984;
+}
