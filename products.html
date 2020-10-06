@@ -4,18 +4,147 @@
     <meta charset="utf-8">
     <title></title>
   </head>
+
   <body>
-    <h1 id="logotext">Bun Bun Bake Shop</h1>
-    <img src="url here" alt="Image of the Bun Bun Bake Shop logo">
-<!-- add the logo image here-->
-<!-- do i add the cart and menu icons in the h1 too?-->
-    <div id="theoriginalbun" class="product">
-      <img src="fallon-michael-DnGGIffnjTY-unsplash.jpg" alt="Image of The Original Bun" width=??? height=???>
-      <!-- adjust width & height -->
-    </div>
-    <div id="Blackberry" class="product">
-      <img src="sabri-tuzcu-CFgRRu3y48I-unsplash.jpg" alt="Image of Blackberry bun" width=??? height=???>
-      <!-- adjust width & height -->
-    </div>
+    <header>
+      <img src="url here" alt="Bun Bun Bake Shop Logo Image">
+      <h1 id="logotext">Bun Bun Bake Shop</h1>
+      <!-- add the logo image here-->
+      <img src="noun_paper bag_196699.png" alt="cart icon">
+      <img src="noun_menu_928567.png" alt="hamburger menu icon">
+    </header>
+
+    <main>
+      <div class="oneproduct" id="originalbun">
+        <div class="prodimage" id="ogbunimage">
+          <!--background of div is image below-->
+          <img src="fallon-michael-DnGGIffnjTY-unsplash.jpg" alt="Image of The Original Bun">
+          <!-- adjust width & height of div-->
+          <span class="showmore">Show more</span>
+          <button class="showmorebutton" type="button">+</button>
+        </div>
+        <div class="prodinfo">
+          <!--css background = #B49984-->
+          <!--form action="page where Add To Cart leads to"-->
+          <label for="quantity">Quantity</label>
+            <select name="quantity" class="quantity" required>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+            </select>
+            <!--input type="submit" value="Add to Cart"-->
+            <!--form-->
+
+            <label for="glaze">Glaze</label>
+              <select name="glaze" class="glaze" required>
+                <option value="none">None</option>
+                <option value="sugarmilk">Sugar-milk</option>
+                <option value="vanillamilk">Vanilla-milk</option>
+                <option value="doublechocolate">Double-chocolate</option>
+              </select>
+          <button class="addtocart" type="button">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="oneproduct" id="blackberry">
+        <div class="prodimage" id="blackberryimage">
+          <!--background of div is image below-->
+          <img src="sabri-tuzcu-CFgRRu3y48I-unsplash.jpg" alt="Image of Blackberry bun">
+          <!-- adjust width & height of div-->
+          <span class="showmore">Show more</span>
+          <button class="showmorebutton" type="button">+</button>
+        </div>
+        <div class="prodinfo">
+          <!--css background = #B49984-->
+          <!--form action="page where Add To Cart leads to"-->
+          <label for="quantity">Quantity</label>
+            <select name="quantity" class="quantity" required>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+            </select>
+            <!--input type="submit" value="Add to Cart"-->
+            <!--form-->
+            <label for="glaze">Glaze</label>
+              <select name="glaze" class="glaze" required>
+                <option value="none">None</option>
+                <option value="sugarmilk">Sugar-milk</option>
+                <option value="vanillamilk">Vanilla-milk</option>
+                <option value="doublechocolate">Double-chocolate</option>
+              </select>
+          <button class="addtocart" type="button">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="oneproduct" id="walnut">
+        <div class="prodimage" id="blackberryimage">
+          <!--background of div is image below-->
+          <img src="sarah-shaffer-KUNRtYp8qd8-unsplash-2.jpg" alt="Image of Walnut bun">
+          <!-- adjust width & height of div-->
+          <span class="showmore">Show more</span>
+          <button class="showmorebutton" type="button">+</button>
+        </div>
+        <div class="prodinfo">
+          <!--css background = #B49984-->
+          <!--form action="page where Add To Cart leads to"-->
+          <label for="quantity">Quantity</label>
+            <select name="quantity" class="quantity" required>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+            </select>
+            <!--input type="submit" value="Add to Cart"-->
+            <!--form-->
+            <label for="glaze">Glaze</label>
+              <select name="glaze" class="glaze" required>
+                <option value="none">None</option>
+                <option value="sugarmilk">Sugar-milk</option>
+                <option value="vanillamilk">Vanilla-milk</option>
+                <option value="doublechocolate">Double-chocolate</option>
+              </select>
+          <button class="addtocart" type="button">Add to Cart</button>
+        </div>
+      </div>
+
+      <!--COPY PASTE ONE PRODUCT DIV FOR GF, PUMPKIN, CARAMEL-->
+    </main>
+
+    <footer>
+      <span class="footer"> Our Story </span>
+      <span class="footer"> Location </span>
+      <span class="footer"> Ingredients </span>
+      <span class="footer"> Products </span>
+      <span class="footer"> Contact </span>
+      <span class="footer"> Help </span>
+    </footer>
+
   </body>
+
 </html>

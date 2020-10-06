@@ -1,0 +1,30 @@
+html {
+  background: #E5E5E5;
+  grid-template-columns:
+}
+
+header {
+  display: flex;
+}
+
+#logotext {
+  font-family: Arizonia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.footer {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: ??px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #B49984;
+}
