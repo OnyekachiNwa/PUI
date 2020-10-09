@@ -1,8 +1,83 @@
 html {
-  background-size: contain;
+  background-color: #E4DBD4;
+  background-image: url('images/proddetails.png');
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-position: center;
-  width: 1366px;
-  height: 768px;
-  background-image: url("images/ProductDetails.jpg")
+  background-size: contain;
+}
+
+#logo {
+  position: fixed;
+  left: 12.75%;
+  top: 1.25%;
+}
+
+#logotext {
+  position: absolute;
+  top: 5%;
+  left: 20%;
+}
+
+#exit {
+  text-decoration: none;
+  position: fixed;
+  top: 20%;
+  left: 76%;
+  transform: translate(-50%, -50%);
+
+  background-color: #B49984;
+  padding: 10px;
+}
+
+#exit:visited, #exit:active {
+  text-decoration: none;
+}
+
+#qty {
+  width: 50px;
+  position: fixed;
+  top: 63.5%;
+  left: 78%;
+  width: 13rem;
+  height: 4rem;
+  transform: translate(-50%, -50%);
+}
+
+#glaze {
+  position: fixed;
+  top: 66.5%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+
+#addtocart {
+  position: fixed;
+  top: 75.5%;
+  left: 67%;
+  width: 12rem;
+  height: 2rem;
+  transform: translate(-50%, -50%);
+  padding: 5px;
+  background-color: #F0EFCC;
+  color: #000000;
+
+  font-family: Roboto;
+  font-size: 20px;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2rem;
+
+  font-family: Roboto;
+  font-size: 18px;
+  color: #B49984;
+  align-items: center;
+  text-align: center;
 }

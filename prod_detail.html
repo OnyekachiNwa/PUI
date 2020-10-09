@@ -6,7 +6,56 @@
     <link rel="stylesheet" type="text/css" href="proddetails.css">
   </head>
   <body>
+    <div id="exit">
+      <a href="products.html"> X </a>
+    </div>
 
+    <a id="logo" href="index.html">
+      <img src="images/logo.png" alt="bun bun image" width="68px" height="68px">
+    </a>
 
+    <a id="logotext" href="index.html">
+      <img src="images/bunbuntext.png" alt="bun bun logo text" height="30px">
+    </a>
+
+    <div id="qty">
+      <label for="qty"></label>
+        <select name="quantity" required>
+          <option value="">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+        </select>
+      </div>
+
+      <div id="glaze">
+        <label for="glaze"></label>
+          <select name="glaze" class="glaze" required>
+            <option value="">None</option>
+            <option value="sugarmilk">Sugar-milk</option>
+            <option value="vanillamilk">Vanilla-milk</option>
+            <option value="doublechocolate">Double-chocolate</option>
+          </select>
+      </div>
+
+      <a id="addtocart" href="yourcart.html">Add to Cart</a>
+
+    <footer class="footer">
+      <span> Our Story |</span>
+      <span> Location |</span>
+      <span> Ingredients |</span>
+      <span> Products |</span>
+      <span> Contact |</span>
+      <span> Help </span>
+    </footer>
   </body>
 </html>
