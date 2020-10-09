@@ -1,0 +1,8 @@
+html {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1366px;
+  height: 768px;
+  background-image: url("images/Productpage.jpg")
+}
