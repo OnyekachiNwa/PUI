@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+
 html {
   background-color: #E4DBD4;
+  font-family: "Roboto", sans-serif;
   background-image: url('images/homepageimage.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -16,10 +19,8 @@ html {
   background-color: #B49984;
   color: #FFFFFF;
 
-  font-family: Arizonia;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
+  font-family: "Arizonia", cursive;
+  font-size: 30px;
   line-height: 2rem;
   align-items: center;
   text-align: center;
