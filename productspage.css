@@ -149,3 +149,12 @@ select {
   position: fixed;
   bottom: 0%;
 }
+
+#productfooter {
+  color: #B49984;
+  text-decoration: none;
+}
+
+#productfooter:visited, #productfooter:active {
+  text-decoration: none;
+}
