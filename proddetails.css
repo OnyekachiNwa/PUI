@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
+
 html {
   background-color: #E4DBD4;
-  background-image: url('images/proddetails.png');
+  font-family: "Roboto", sans-serif;
+  background-image: url('images/productdetails.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -8,76 +11,120 @@ html {
 }
 
 #logo {
-  position: fixed;
-  left: 12.75%;
-  top: 1.25%;
+  position: relative;
+  top:3%; left:13%;
 }
 
 #logotext {
   position: absolute;
-  top: 5%;
-  left: 20%;
+  top: 4%; left: 20%;
+}
+
+#detail {
+  display: grid;
+  grid-template-columns: 500px 300px;
+  justify-content: center;
+  filter: drop-shadow(-5px 5px 5px #828282);
+}
+
+#ogbunBIGimage {
+  background-image: url("images/TheOriginalBun.jpg");
+  width: 500px;
+  height: 500px;
+  background-size: cover;
 }
 
 #exit {
+  font-weight: 100;
+  font-size: 20px;
   text-decoration: none;
-  position: fixed;
-  top: 20%;
-  left: 76%;
-  transform: translate(-50%, -50%);
+  position: relative;
+  left: 93%;
+}
 
+#exit:visited, #exit:active {
+  color: black;
+  text-decoration: none;
+}
+
+#text {
   background-color: #B49984;
   padding: 10px;
 }
 
-#exit:visited, #exit:active {
-  text-decoration: none;
+h1 {
+  font-weight: 900;
 }
 
-#qty {
-  width: 50px;
-  position: fixed;
-  top: 63.5%;
-  left: 78%;
-  width: 13rem;
-  height: 4rem;
-  transform: translate(-50%, -50%);
+p1 {
+  font-size: 12px;
 }
 
-#glaze {
-  position: fixed;
-  top: 66.5%;
-  left: 70%;
-  transform: translate(-50%, -50%);
+h2 {
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+p2 {
+  font-size: 12px;
+  font-weight: 100;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 900;
+  text-align: right;
+}
+
+.prodinfo {
+  background-color: #B49984;
+  padding-top: 5px;
+  height: 100px;
+  font-weight: 100;
+  text-align: center;
+}
+
+select {
+  font-weight: 100;
+  appearance: none;
+  border: none;
+  width: 50%;
+  outline-style: none;
+  margin-top: 5px;
 }
 
 #addtocart {
-  position: fixed;
-  top: 75.5%;
-  left: 67%;
-  width: 12rem;
-  height: 2rem;
-  transform: translate(-50%, -50%);
-  padding: 5px;
   background-color: #F0EFCC;
+  padding: 10px;
+  padding-left: 45px; padding-right: 45px;
   color: #000000;
-
-  font-family: Roboto;
   font-size: 20px;
-  align-items: center;
   text-align: center;
   text-decoration: none;
+
+  position: absolute;
+  top: 70%;
+  right: 25%;
 }
 
 .footer {
-  position: absolute;
-  bottom: 0;
   width: 100%;
   height: 2rem;
 
-  font-family: Roboto;
-  font-size: 18px;
+  font-size: 16px;
   color: #B49984;
   align-items: center;
   text-align: center;
+  position: fixed;
+  bottom: 0%;
+}
+
+#productfooter {
+  color: #B49984;
+  text-decoration: none;
+}
+
+#productfooter:visited, #productfooter:active {
+  text-decoration: none;
 }
